@@ -1,4 +1,4 @@
 #!/bin/sh
 
-bypy list
+python -m bypy list
 

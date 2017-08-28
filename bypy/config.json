@@ -1,0 +1,15 @@
+{
+    "name": "Baidu netdisk",
+    "version": "0.0.1",
+    "slug": "bypy",
+    "description": "Baidu netdisk",
+    "startup": "application",
+    "boot": "auto",
+    "options": {
+        "config": ""
+    },
+    "schema": {
+        "config": "str"
+    },
+    "host_network": true
+}

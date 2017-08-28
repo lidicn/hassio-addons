@@ -14,8 +14,7 @@ RUN apk add --no-cache --virtual .build-deps \
         python \
 	    python-dev \
  && pip install -U pip \
- && pip install \
-        bypy \
+ && pip install bypy \
  && apk del .build-deps	
 	
 

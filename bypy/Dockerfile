@@ -8,11 +8,11 @@ RUN apk add --no-cache --virtual .build-deps \
 	git \
  && apk add --no-cache \
         ca-certificates \
-		jq \
+	jq \
         py-gst1 \
         py-pip \
         python \
-	    python-dev \
+	python-dev \
  && pip install -U pip \
  && pip install bypy \
  && apk del .build-deps	

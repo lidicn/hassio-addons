@@ -1,0 +1,17 @@
+
+{
+    "name": "Shooter_downloader",
+    "version": "0.0.3",
+    "slug": "shooter",
+    "description": "Beta version of python Shooter_downloader",
+    "url": "https://github.com/lidicn/hassio-addons",
+    "startup": "application",
+    "boot": "auto",
+    "options": {
+        "config": ""
+    },
+    "schema": {
+        "config": "str"
+    },
+    "host_network": true
+}

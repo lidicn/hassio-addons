@@ -7,11 +7,15 @@
     "url": "https://github.com/lidicn/hassio-addons",
     "startup": "application",
     "boot": "auto",
+    "map": [
+    "share"
+  ],
     "options": {
-        "config": ""
+        "options": []
     },
     "schema": {
-        "config": "str"
+	      "options": [{"name": "str"}]
     },
+    "devices": ["/transmission/downloads/complete:/transmission/downloads/complete:rwm"],
     "host_network": true
 }

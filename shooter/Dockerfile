@@ -8,7 +8,7 @@ RUN mkdir -p /usr/src/app /usr/src/cache
 WORKDIR /usr/src/app
 VOLUME /usr/src/cache
 # Copy firmware
-COPY subfinder/* /usr/src/app
+COPY subfinder/subfinder.py /usr/src/app
 
 # Copy data
 COPY run.sh /

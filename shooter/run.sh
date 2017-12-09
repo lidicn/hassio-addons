@@ -1,3 +1,3 @@
 #!/bin/sh
 
-/usr/src
+python3 /usr/src/app/subfinder.py

@@ -14,6 +14,6 @@ COPY subfinder/* /usr/src/app
 COPY run.sh /
 RUN chmod a+x /run.sh
 
-ENTRYPOINT ["SubFinder", "--cache-dir", "/usr/src/cache"]
+
 
 CMD [ "/run.sh" ]
